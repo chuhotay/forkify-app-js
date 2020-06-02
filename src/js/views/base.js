@@ -1,11 +1,15 @@
+const DOM = element => document.querySelector(element);
+
 export const elements = {
-    searchForm: document.querySelector('.search'),
-    searchInput: document.querySelector('.search__field'),
-    searchResultList: document.querySelector('.results__list'),
-    searchRes: document.querySelector('.results'),
-    searchResPages: document.querySelector('.results__pages'),
-    recipe: document.querySelector('.recipe'),
-    shopping: document.querySelector('.shopping__list')
+    searchForm: DOM('.search'),
+    searchInput: DOM('.search__field'),
+    searchResultList: DOM('.results__list'),
+    searchRes: DOM('.results'),
+    searchResPages: DOM('.results__pages'),
+    recipe: DOM('.recipe'),
+    shopping: DOM('.shopping__list'),
+    likesMenu: DOM('.likes__field'),
+    likesList: DOM('.likes__list')
 };
 
 export const elementStrings = {
